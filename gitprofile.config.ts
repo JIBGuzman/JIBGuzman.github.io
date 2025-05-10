@@ -2,20 +2,16 @@
 
 const CONFIG = {
   github: {
-    username: 'JIBGuzman', // Your GitHub org/user name
+    username: 'JIBGuzman',
   },
-
-  // If deploying to https://JIBGuzman.github.io/, set base to '/'
-  // If deploying to https://JIBGuzman.github.io/gitprofile/, set base to '/gitprofile/'
   base: '/',
-
   projects: {
     github: {
       display: true,
       header: 'GitHub Projects',
-      mode: 'automatic', // 'automatic' or 'manual'
+      mode: 'automatic',
       automatic: {
-        sortBy: 'stars',
+        sortBy: 'updated',
         limit: 8,
         exclude: {
           forks: false,
@@ -33,8 +29,8 @@ const CONFIG = {
           title: 'Automated Pill Dispenser',
           description:
             'Automated medication management system using NUCLEO-F767ZI and Raspberry Pi 5 with biometric security, dispensing modes, object recognition, 7" touchscreen, MySQL database logging, and modular storage for 16+ medications.',
-          imageUrl: '',
-          link: '',
+          imageUrl: 'https://jonteacz.github.io/CECS490-DR.PILL/',
+          link: 'https://github.com/JonTeaCz/CECS490-DR.PILL',
         },
         {
           title: 'Bluetooth Car',
@@ -48,28 +44,28 @@ const CONFIG = {
           description:
             'Microcontroller-based instrument with touch keypad input and R/2R ladder DAC audio output, supporting live performance (3-octave range) and automated music box playback of MIDI sequences.',
           imageUrl: '',
-          link: '',
+          link: 'https://github.com/JIBGuzman/Piano-Project',
         },
         {
           title: 'I2C Network Communication',
           description:
             'Multi-device I2C network with TM4C123 master, TCS34725 color sensor, MPU6050 gyro, 16x2 LCD, PWM servo control, and dual 4.7kΩ pull-up resistors for stable communication.',
           imageUrl: '',
-          link: '',
+          link: 'https://github.com/JIBGuzman/Project5_447',
         },
         {
           title: 'Weather Quest',
           description:
             'IoT weather station with WiFi API integration (OpenWeatherMap), ST7735 display, animated icons, multi-location query via UART, and real-time temperature/humidity updates.',
           imageUrl: '',
-          link: '',
+          link: 'https://github.com/JIBGuzman/Project4_447',
         },
         {
           title: 'UART Communication System',
           description:
             'Cross-device protocol enabling PC-to-microcontroller chat relay, synchronized RGB LED color cycling, and DMA-optimized brightness control with configurable baud rates.',
           imageUrl: '',
-          link: '',
+          link: 'https://github.com/JIBGuzman/Project2_447',
         },
         {
           title: 'Receipt Generator',
