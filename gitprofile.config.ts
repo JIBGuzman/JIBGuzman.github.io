@@ -114,7 +114,7 @@ const CONFIG = {
   },
 
   resume: {
-    fileUrl: 'https://csulb-my.sharepoint.com/personal/joseph_guzman_student_csulb_edu/Documents/RESUME_2025_Joseph_Guzman%20(2).pdf?login_hint=Joseph.Guzman%40student.csulb.edu',
+    fileUrl: 'https://csulb-my.sharepoint.com/personal/joseph_guzman_student_csulb_edu/Documents/RESUME_2025_Joseph_Guzman.pdf?login_hint=Joseph.Guzman%40student.csulb.edu',
   },
 
   skills: [
