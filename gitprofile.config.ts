@@ -109,12 +109,12 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: '',
-    phone: '',
-    email: '', // Add your email if you want it public
+    phone: '+1 (562) 336-7085',
+    email: 'JosephGuzman1019@gmail.com', // Add your email if you want it public
   },
 
   resume: {
-    fileUrl: 'https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/66769807/e6c186e2-768d-4aa1-856e-1fb72cd16909/RESUME_2025_Joseph_Guzman-1.pdf',
+    fileUrl: 'https://csulb-my.sharepoint.com/personal/joseph_guzman_student_csulb_edu/Documents/RESUME_2025_Joseph_Guzman%20(2).pdf?login_hint=Joseph.Guzman%40student.csulb.edu',
   },
 
   skills: [
