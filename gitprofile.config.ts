@@ -7,7 +7,7 @@ const CONFIG = {
 
   // If deploying to https://JIBGuzman.github.io/, set base to '/'
   // If deploying to https://JIBGuzman.github.io/gitprofile/, set base to '/gitprofile/'
-  base: '/gitprofile/',
+  base: '/',
 
   projects: {
     github: {
