@@ -2,189 +2,217 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'JIBGuzman', // Your GitHub org/user name
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
+
+  // If deploying to https://JIBGuzman.github.io/, set base to '/'
+  // If deploying to https://JIBGuzman.github.io/gitprofile/, set base to '/gitprofile/'
   base: '/gitprofile/',
+
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'automatic', // 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars',
+        limit: 8,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false,
+          projects: [],
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [],
       },
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Automated Pill Dispenser',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Automated medication management system using NUCLEO-F767ZI and Raspberry Pi 5 with biometric security, dispensing modes, object recognition, 7" touchscreen, MySQL database logging, and modular storage for 16+ medications.',
+          imageUrl: '',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: 'Bluetooth Car',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Dual-mode robotic system using TM4C123 and HC-05 Bluetooth for wireless manual and autonomous navigation, PWM motor drivers, Hall-effect sensor feedback, and LED status indicators.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'Piano Project',
+          description:
+            'Microcontroller-based instrument with touch keypad input and R/2R ladder DAC audio output, supporting live performance (3-octave range) and automated music box playback of MIDI sequences.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'I2C Network Communication',
+          description:
+            'Multi-device I2C network with TM4C123 master, TCS34725 color sensor, MPU6050 gyro, 16x2 LCD, PWM servo control, and dual 4.7kΩ pull-up resistors for stable communication.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'Weather Quest',
+          description:
+            'IoT weather station with WiFi API integration (OpenWeatherMap), ST7735 display, animated icons, multi-location query via UART, and real-time temperature/humidity updates.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'UART Communication System',
+          description:
+            'Cross-device protocol enabling PC-to-microcontroller chat relay, synchronized RGB LED color cycling, and DMA-optimized brightness control with configurable baud rates.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'Receipt Generator',
+          description:
+            'Console-based point-of-sale system with SKU inventory, real-time cart updates, dual payment processing, dynamic tax calculation, and automated receipt generation.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'FSM Traffic Light System',
+          description:
+            'Advanced traffic light controller for two-street intersection using TM4C123, real-time sensor input, Moore FSM, SysTick-based delays, hardware debouncing, and logic analyzer validation.',
+          imageUrl: '',
+          link: '',
         },
       ],
     },
   },
+
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'Portfolio of Joseph Guzman',
+    description: 'Computer Engineering graduate with embedded systems, software, and hardware experience.',
+    imageURL: '', // Add a profile image URL if you have one
   },
+
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
+    linkedin: 'josephguzmani',
+    x: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: '', // Add your email if you want it public
   },
+
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/66769807/e6c186e2-768d-4aa1-856e-1fb72cd16909/RESUME_2025_Joseph_Guzman-1.pdf',
   },
+
   skills: [
-    'PHP',
-    'Laravel',
+    'C/C++',
+    'Python',
+    'MATLAB',
+    'Verilog',
+    'Java',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'SQL',
+    'HTML',
+    'Assembly',
+    'Keil uVision',
+    'VS Code',
+    'Vivado',
+    'STM32CubeIDE',
+    'SolidWorks',
+    'Shapr3D',
+    'Linux',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'GitHub',
+    'MySQL',
+    'VirtualBox',
+    'Jupyter Notebook',
+    'Thonny',
+    'Replit',
+    'LTspice',
+    'Embedded Systems',
+    'I2C',
+    'UART',
+    'SPI',
+    'PWM',
+    'Circuit Design',
+    'Testing',
+    'Calibration',
+    'Troubleshooting',
+    'Hardware Assembly/Disassembly',
+    'Leadership',
+    'Team Building',
+    'Management',
   ],
+
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Tastea',
+      position: 'Team Lead Supervisor',
+      from: 'July 2020',
+      to: 'July 2022',
+      companyLink: '',
+      description: [
+        'Handled all matters and procedures while meeting company standards.',
+        'Managed inventory to verify the quality and quantity of products.',
+        'Observed staff performance and constructed feedback for upper management on improving productivity.',
+      ],
     },
   ],
+
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // Add certifications here if you have any
   ],
+
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'California State University of Long Beach',
+      degree: 'B.S. in Computer Engineering',
+      from: 'August 2019',
+      to: 'May 2025',
     },
   ],
+
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    // Add publications here if you have any
   ],
-  // Display articles from your medium or dev account. (Optional)
+
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: '', // medium | dev
+    username: '',
+    limit: 0,
   },
+
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
+
   hotjar: {
     id: '',
     snippetVersion: 6,
   },
+
   themeConfig: {
     defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -220,8 +248,6 @@ const CONFIG = {
       'sunset',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -233,14 +259,10 @@ const CONFIG = {
     },
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with GitProfile and ❤️`,
 
   enablePWA: true,
 };
 
 export default CONFIG;
+
