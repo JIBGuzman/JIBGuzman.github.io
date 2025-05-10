@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Dual-mode robotic system using TM4C123 and HC-05 Bluetooth for wireless manual and autonomous navigation, PWM motor drivers, Hall-effect sensor feedback, and LED status indicators.',
           imageUrl: '',
-          link: '',
+          link: 'https://github.com/JIBGuzman/Project3_447',
         },
         {
           title: 'Piano Project',
@@ -72,14 +72,14 @@ const CONFIG = {
           description:
             'Console-based point-of-sale system with SKU inventory, real-time cart updates, dual payment processing, dynamic tax calculation, and automated receipt generation.',
           imageUrl: '',
-          link: '',
+          link: 'https://github.com/JIBGuzman/Market',
         },
         {
           title: 'FSM Traffic Light System',
           description:
             'Advanced traffic light controller for two-street intersection using TM4C123, real-time sensor input, Moore FSM, SysTick-based delays, hardware debouncing, and logic analyzer validation.',
           imageUrl: '',
-          link: '',
+          link: 'https://github.com/JIBGuzman/Embedded_Systems/tree/main/CECS_346_Project_1',
         },
       ],
     },
