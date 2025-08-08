@@ -114,7 +114,7 @@ const CONFIG = {
   },
 
   resume: {
-    fileUrl: 'https://csulb-my.sharepoint.com/:b:/g/personal/joseph_guzman_student_csulb_edu/ES2JE2N1f_xEl7M8AUEKUZcBWFcLTUums58Mkf_OS3ILAQ?e=fF3SOk',
+    fileUrl: 'https://csulb-my.sharepoint.com/:b:/g/personal/joseph_guzman_student_csulb_edu/EcbGA5XIY85Dm0ogqTq0hggBlpxcaI6DM1XfgHfDGMTocQ?e=JRNfxD',
   },
 
 skills: [
