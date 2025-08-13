@@ -26,68 +26,67 @@ const CONFIG = {
       },
     },
 
-    external: {
-      header: 'My Projects',
-      projects: [
-        {
-          title: 'Automated Pill Dispenser',
-          description:
-            'Automated medication management system using NUCLEO-F767ZI and Raspberry Pi 5 with biometric security, dispensing modes, object recognition, 7" touchscreen, MySQL logging, and modular storage for 16+ medications.',
-          imageUrl: 'https://raw.githubusercontent.com/JonTeaCz/CECS490-DR.PILL/main/assets/dispenser.jpg',
-          link: 'https://github.com/JonTeaCz/CECS490-DR.PILL',
-        },
-        {
-          title: 'Bluetooth Car',
-          description:
-            'Dual-mode robotic system using TM4C123 and HC-05 Bluetooth for wireless/manual navigation with PWM motor control and Hall-effect feedback.',
-          imageUrl: 'https://via.placeholder.com/400x250?text=Bluetooth+Car',
-          link: 'https://github.com/JIBGuzman/Project3_447',
-        },
-        {
-          title: 'Piano Project',
-          description:
-            'Touch keypad microcontroller-based piano with R/2R DAC for 3-octave live play and automated MIDI playback.',
-          imageUrl: 'https://via.placeholder.com/400x250?text=Piano+Project',
-          link: 'https://github.com/JIBGuzman/Piano-Project',
-        },
-        {
-          title: 'I2C Network Communication',
-          description:
-            'Multi-device I2C network with TM4C123 master, sensors, LCD, PWM servo, and pull-up resistor stability.',
-          imageUrl: 'https://via.placeholder.com/400x250?text=I2C+Network',
-          link: 'https://github.com/JIBGuzman/Project5_447',
-        },
-        {
-          title: 'Weather Quest',
-          description:
-            'IoT weather station using OpenWeatherMap API with ST7735 display, animated icons, and UART location query.',
-          imageUrl: 'https://via.placeholder.com/400x250?text=Weather+Station',
-          link: 'https://github.com/JIBGuzman/Project4_447',
-        },
-        {
-          title: 'UART Communication System',
-          description:
-            'Cross-device UART chat with synchronized RGB LED control and DMA brightness optimization.',
-          imageUrl: 'https://via.placeholder.com/400x250?text=UART+System',
-          link: 'https://github.com/JIBGuzman/Project2_447',
-        },
-        {
-          title: 'Receipt Generator',
-          description:
-            'Console POS system with SKU inventory, cart, tax calculation, and receipt creation.',
-          imageUrl: 'https://via.placeholder.com/400x250?text=Receipt+Generator',
-          link: 'https://github.com/JIBGuzman/Market',
-        },
-        {
-          title: 'FSM Traffic Light System',
-          description:
-            'Two-way traffic light controller with Moore FSM, sensor input, and SysTick delays.',
-          imageUrl: 'https://via.placeholder.com/400x250?text=Traffic+Light+System',
-          link: 'https://github.com/JIBGuzman/Embedded_Systems/tree/main/CECS_346_Project_1',
-        },
-      ],
+external: {
+  header: 'My Projects',
+  projects: [
+    {
+      title: 'Automated Pill Dispenser',
+      description:
+        'Automated medication management system using NUCLEO-F767ZI and Raspberry Pi 5 with biometric security, dispensing modes, object recognition, 7" touchscreen, MySQL logging, and modular storage for 16+ medications.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/automated-pill-dispenser.png',
+      link: 'https://github.com/JonTeaCz/CECS490-DR.PILL',
     },
-  },
+    {
+      title: 'Bluetooth Car',
+      description:
+        'Dual-mode robotic system using TM4C123 and HC-05 Bluetooth for wireless/manual navigation with PWM motor control and Hall-effect feedback.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/bluetooth-car.png',
+      link: 'https://github.com/JIBGuzman/Project3_447',
+    },
+    {
+      title: 'Piano Project',
+      description:
+        'Touch keypad microcontroller-based piano with R/2R DAC for 3-octave live play and automated MIDI playback.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/piano-project.jpg',
+      link: 'https://github.com/JIBGuzman/Piano-Project',
+    },
+    {
+      title: 'I2C Network Communication',
+      description:
+        'Multi-device I2C network with TM4C123 master, sensors, LCD, PWM servo, and pull-up resistor stability.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/i2c-network-communcation.png',
+      link: 'https://github.com/JIBGuzman/Project5_447',
+    },
+    {
+      title: 'Weather Quest',
+      description:
+        'IoT weather station using OpenWeatherMap API with ST7735 display, animated icons, and UART location query.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/weather-quest.png',
+      link: 'https://github.com/JIBGuzman/Project4_447',
+    },
+    {
+      title: 'UART Communication System',
+      description:
+        'Cross-device UART chat with synchronized RGB LED control and DMA brightness optimization.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/UART-Communication.png',
+      link: 'https://github.com/JIBGuzman/Project2_447',
+    },
+    {
+      title: 'Receipt Generator',
+      description:
+        'Console POS system with SKU inventory, cart, tax calculation, and receipt creation.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/receipt-generator.jpg',
+      link: 'https://github.com/JIBGuzman/Market',
+    },
+    {
+      title: 'FSM Traffic Light System',
+      description:
+        'Two-way traffic light controller with Moore FSM, sensor input, and SysTick delays.',
+      imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/FSM-Traffic_Light.jpg',
+      link: 'https://github.com/JIBGuzman/Embedded_Systems/tree/main/CECS_346_Project_1',
+    },
+  ],
+},
 
   seo: {
     title: 'Portfolio of Joseph Guzman',
@@ -105,7 +104,7 @@ const CONFIG = {
   },
 
   resume: {
-    fileUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-Resume/main/Joseph_Guzman_Resume_2025.pdf',
+    fileUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Resume/Joseph_Guzman_Resume_2025.pdf'
   },
 
   skills: [
