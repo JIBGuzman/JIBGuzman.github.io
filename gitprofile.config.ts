@@ -4,7 +4,9 @@ const CONFIG = {
   github: {
     username: 'JIBGuzman',
   },
+
   base: '/',
+
   projects: {
     github: {
       display: true,
@@ -22,6 +24,7 @@ const CONFIG = {
         projects: [],
       },
     },
+
     external: {
       header: 'My Projects',
       projects: [
@@ -29,56 +32,56 @@ const CONFIG = {
           title: 'Automated Pill Dispenser',
           description:
             'Automated medication management system using NUCLEO-F767ZI and Raspberry Pi 5 with biometric security, dispensing modes, object recognition, 7" touchscreen, MySQL database logging, and modular storage for 16+ medications.',
-          imageUrl: 'https://jonteacz.github.io/CECS490-DR.PILL/',
+          imageUrl: 'https://raw.githubusercontent.com/JonTeaCz/CECS490-DR.PILL/main/assets/dispenser.jpg',
           link: 'https://github.com/JonTeaCz/CECS490-DR.PILL',
         },
         {
           title: 'Bluetooth Car',
           description:
             'Dual-mode robotic system using TM4C123 and HC-05 Bluetooth for wireless manual and autonomous navigation, PWM motor drivers, Hall-effect sensor feedback, and LED status indicators.',
-          imageUrl: '',
+          imageUrl: 'https://via.placeholder.com/400x250?text=Bluetooth+Car',
           link: 'https://github.com/JIBGuzman/Project3_447',
         },
         {
           title: 'Piano Project',
           description:
             'Microcontroller-based instrument with touch keypad input and R/2R ladder DAC audio output, supporting live performance (3-octave range) and automated music box playback of MIDI sequences.',
-          imageUrl: '',
+          imageUrl: 'https://via.placeholder.com/400x250?text=Piano+Project',
           link: 'https://github.com/JIBGuzman/Piano-Project',
         },
         {
           title: 'I2C Network Communication',
           description:
             'Multi-device I2C network with TM4C123 master, TCS34725 color sensor, MPU6050 gyro, 16x2 LCD, PWM servo control, and dual 4.7kΩ pull-up resistors for stable communication.',
-          imageUrl: '',
+          imageUrl: 'https://via.placeholder.com/400x250?text=I2C+Network',
           link: 'https://github.com/JIBGuzman/Project5_447',
         },
         {
           title: 'Weather Quest',
           description:
             'IoT weather station with WiFi API integration (OpenWeatherMap), ST7735 display, animated icons, multi-location query via UART, and real-time temperature/humidity updates.',
-          imageUrl: '',
+          imageUrl: 'https://via.placeholder.com/400x250?text=Weather+Station',
           link: 'https://github.com/JIBGuzman/Project4_447',
         },
         {
           title: 'UART Communication System',
           description:
             'Cross-device protocol enabling PC-to-microcontroller chat relay, synchronized RGB LED color cycling, and DMA-optimized brightness control with configurable baud rates.',
-          imageUrl: '',
+          imageUrl: 'https://via.placeholder.com/400x250?text=UART+System',
           link: 'https://github.com/JIBGuzman/Project2_447',
         },
         {
           title: 'Receipt Generator',
           description:
             'Console-based point-of-sale system with SKU inventory, real-time cart updates, dual payment processing, dynamic tax calculation, and automated receipt generation.',
-          imageUrl: '',
+          imageUrl: 'https://via.placeholder.com/400x250?text=Receipt+Generator',
           link: 'https://github.com/JIBGuzman/Market',
         },
         {
           title: 'FSM Traffic Light System',
           description:
             'Advanced traffic light controller for two-street intersection using TM4C123, real-time sensor input, Moore FSM, SysTick-based delays, hardware debouncing, and logic analyzer validation.',
-          imageUrl: '',
+          imageUrl: 'https://via.placeholder.com/400x250?text=Traffic+Light+System',
           link: 'https://github.com/JIBGuzman/Embedded_Systems/tree/main/CECS_346_Project_1',
         },
       ],
@@ -88,127 +91,94 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Joseph Guzman',
     description: 'Computer Engineering graduate with embedded systems, software, and hardware experience.',
-    imageURL: '', // Add a profile image URL if you have one
+    imageURL: 'https://avatars.githubusercontent.com/u/0000000?v=4', // Replace with your actual GitHub profile image or hosted headshot
   },
 
   social: {
     linkedin: 'josephguzmani',
     x: '',
-    mastodon: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '',
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: '',
-    dev: '',
-    stackoverflow: '',
-    skype: '',
-    telegram: '',
     website: '',
-    phone: '+1 (562) 336-7085',
-    email: 'JosephGuzman1019@gmail.com', // Add your email if you want it public
+    phone: '', // Hidden for privacy in public portfolio
+    email: 'JosephGuzman1019@gmail.com',
   },
 
   resume: {
-    fileUrl: 'https://csulb-my.sharepoint.com/:b:/g/personal/joseph_guzman_student_csulb_edu/EcbGA5XIY85Dm0ogqTq0hggBlpxcaI6DM1XfgHfDGMTocQ?e=JRNfxD',
+    // Updated with your new public resume link if you decide to upload it publicly; placeholder here
+    fileUrl: 'https://github.com/JIBGuzman/joseph-guzman-resume/raw/main/Joseph_Guzman_Resume_2025.pdf',
   },
 
-skills: [
-  'C',
-  'C++',
-  'Python',
-  'MATLAB',
-  'Verilog',
-  'Java',
-  'JavaScript',
-  'SQL',
-  'HTML',
-  'Assembly',
-  'Keil uVision',
-  'VS Code',
-  'Vivado',
-  'STM32CubeIDE',
-  'Jupyter Notebook',
-  'Thonny',
-  'Replit',
-  'SolidWorks',
-  'Shapr3D',
-  'LTspice',
-  'Linux',
-  'VirtualBox',
-  'Git',
-  'GitHub',
-  'MySQL',
-  'I2C',
-  'UART',
-  'SPI',
-  'PWM',
-  'Circuit Design',
-  'Testing',
-  'Calibration',
-  'Troubleshooting',
-  'Hardware Assembly/Disassembly',
-  'Leadership',
-  'Team Building',
-  'Management',
-],
+  skills: [
+    // Updated technical and soft skills from your resume grouped for readability
+    // Programming Languages
+    'C',
+    'C++',
+    'Python',
+    'MATLAB',
+    'Verilog',
+    'Java',
+    'JavaScript',
+    'SQL',
+    'HTML',
+    'Assembly',
+
+    // Tools & IDEs
+    'STM32CubeIDE',
+    'Vivado',
+    'Keil uVision',
+    'SolidWorks',
+    'Shapr3D',
+    'Git',
+    'GitHub',
+    'MySQL',
+    'Linux',
+    'VirtualBox',
+    'Jupyter Notebook',
+    'LTspice',
+
+    // Hardware & Protocols
+    'I2C',
+    'UART',
+    'SPI',
+    'PWM',
+    'Circuit Design',
+    'Testing',
+    'Calibration',
+    'Troubleshooting',
+    'Hardware Assembly',
+
+    // Soft Skills
+    'Leadership',
+    'Team Collaboration',
+    'Project Coordination',
+  ],
 
   experiences: [
     {
       company: 'Tastea',
       position: 'Team Lead Supervisor',
-      from: 'July 2020',
-      to: 'July 2022',
-      companyLink: '',
+      from: 'June 2020',
+      to: 'June 2022',
       description: [
-        'Handled all matters and procedures while meeting company standards.',
-        'Managed inventory to verify the quality and quantity of products.',
-        'Observed staff performance and constructed feedback for upper management on improving productivity.',
+        'Supervised team operations, maintained product quality, and ensured compliance with service standards.',
+        'Managed inventory and stock levels to optimize efficiency and reduce waste.',
+        'Delivered performance evaluations and suggestions to upper management to enhance staff productivity.',
       ],
     },
-  ],
-
-  certifications: [
-    // Add certifications here if you have any
+    // You can add more engineering-related or internship experiences here in the future
   ],
 
   educations: [
     {
-      institution: 'California State University of Long Beach',
+      institution: 'California State University, Long Beach',
       degree: 'B.S. in Computer Engineering',
       from: 'August 2019',
       to: 'May 2025',
     },
   ],
 
-  publications: [
-    // Add publications here if you have any
-  ],
-
-  blog: {
-    source: '', // medium | dev
-    username: '',
-    limit: 0,
-  },
-
-  googleAnalytics: {
-    id: '',
-  },
-
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
-
   themeConfig: {
     defaultTheme: 'lofi',
     disableSwitch: false,
-    respectPrefersColorScheme: false,
-    displayAvatarRing: true,
     themes: [
       'light',
       'dark',
@@ -256,9 +226,7 @@ skills: [
   },
 
   footer: `Made with GitProfile and ❤️`,
-
   enablePWA: true,
 };
 
 export default CONFIG;
-
