@@ -2,8 +2,8 @@ const CONFIG = {
   github: {
     username: 'JIBGuzman',
     display: true,
-    header: 'GitHub Projects',
-    mode: 'manual',
+    header: 'Ongoing Projects/Research', // Renamed from GitHub Projects
+    mode: 'manual', // Only show manually added projects
     projects: [
       {
         title: 'Embedded Systems Initialization Hub',
@@ -32,8 +32,8 @@ const CONFIG = {
     ],
   },
 
-  external: {
-    header: 'My Projects',
+  manual: {
+    header: 'My Projects', // Completed projects section
     projects: [
       {
         title: 'Automated Pill Dispenser',
