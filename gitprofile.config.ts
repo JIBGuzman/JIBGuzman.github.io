@@ -114,8 +114,9 @@ const CONFIG = {
         imageUrl:
           'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/FSM-TrafficLight.jpg',
         link: 'https://github.com/JIBGuzman/Embedded_Systems/tree/main/CECS_346_Project_1',
-      },
-    ],
+        },
+      ],
+    },
   },
 
   seo: {
