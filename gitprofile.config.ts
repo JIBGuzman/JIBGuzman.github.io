@@ -1,10 +1,32 @@
 const CONFIG = {
   github: {
     username: 'JIBGuzman',
-    display: true,
-    header: 'Ongoing Projects/Research', // Renamed from GitHub Projects
-    mode: 'manual', // Only show manually added projects
-    projects: [
+  },
+
+  base: '/',
+
+  projects: {
+    github: {
+      display: false,
+      header: 'GitHub Projects',
+      mode: 'automatic',
+      automatic: {
+        sortBy: 'updated',
+        limit: 11,
+        exclude: {
+          forks: false,
+          projects: [],
+        },
+      },
+      manual: {
+        projects: [
+        ],
+      },
+    },
+
+    external: {
+      header: 'My Projects',
+      projects: [
       {
         title: 'Embedded Systems Initialization Hub',
         description:
@@ -28,13 +50,7 @@ const CONFIG = {
         imageUrl:
           'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/brain-computer-interfce.png',
         link: 'https://github.com/JIBGuzman/Brain_Computer_Interface',
-      },
-    ],
-  },
-
-  manual: {
-    header: 'My Projects', // Completed projects section
-    projects: [
+      },      
       {
         title: 'Automated Pill Dispenser',
         description:
