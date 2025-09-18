@@ -19,10 +19,7 @@ const CONFIG = {
         },
       },
       manual: {
-        projects: [
-          { name: 'CECS490-DR.PILL', owner: 'JonTeaCz' },
-          { name: 'Piano-Project', owner: 'JIBGuzman' },
-        ],
+        projects: [],
       },
     },
 
@@ -34,42 +31,42 @@ const CONFIG = {
           description:
             'Automated medication management system using NUCLEO-F767ZI and Raspberry Pi 5 with biometric security, dispensing modes, object recognition, 7" touchscreen, MySQL logging, and modular storage for 16+ medications.',
           imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/automated-pill-dispenser.png',
-          link: 'https://github.com/JonTeaCz/CECS490-DR.PILL',
+          link: 'https://github.com/JIBGuzman/DR.PILL_The_Automated_Pill_Dispenser',
         },
         {
           title: 'Bluetooth Car',
           description:
             'Dual-mode robotic system using TM4C123 and HC-05 Bluetooth for wireless/manual navigation with PWM motor control and Hall-effect feedback.',
           imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/bluetooth-car.png',
-          link: 'https://github.com/JIBGuzman/Project3_447',
+          link: 'https://github.com/JIBGuzman/Bluetooth_Car',
         },
         {
           title: 'Piano Project',
           description:
             'Touch keypad microcontroller-based piano with R/2R DAC for 3-octave live play and automated MIDI playback.',
           imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/piano-project.jpg',
-          link: 'https://github.com/JIBGuzman/Piano-Project',
+          link: 'https://github.com/JIBGuzman/Piano_Project',
         },
         {
           title: 'I2C Network Communication',
           description:
             'Multi-device I2C network with TM4C123 master, sensors, LCD, PWM servo, and pull-up resistor stability.',
           imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/i2c-network-communcation.png',
-          link: 'https://github.com/JIBGuzman/Project5_447',
+          link: 'https://github.com/JIBGuzman/I2C_Network_Communication',
         },
         {
           title: 'Weather Quest',
           description:
             'IoT weather station using OpenWeatherMap API with ST7735 display, animated icons, and UART location query.',
           imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/weather-quest.png',
-          link: 'https://github.com/JIBGuzman/Project4_447',
+          link: 'https://github.com/JIBGuzman/Weather_Quest',
         },
         {
           title: 'UART Communication System',
           description:
             'Cross-device UART chat with synchronized RGB LED control and DMA brightness optimization.',
           imageUrl: 'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/UART-Communication.png',
-          link: 'https://github.com/JIBGuzman/Project2_447',
+          link: 'https://github.com/JIBGuzman/UART_Communication_System',
         },
         {
           title: 'Receipt Generator',
