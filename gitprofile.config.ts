@@ -48,7 +48,7 @@ const CONFIG = {
         description:
           'A system to acquire and store raw brain activity data while users perform computer actions (e.g., opening an app, clicking the mouse), enabling research and development of brain-controlled interfaces.',
         imageUrl:
-          'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/brain-computer-interfce.png',
+          'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/brain-computer-interface.png',
         link: 'https://github.com/JIBGuzman/Brain_Computer_Interface',
       },      
       {
@@ -112,7 +112,7 @@ const CONFIG = {
         description:
           'Two-way traffic light controller with Moore FSM, sensor input, and SysTick delays.',
         imageUrl:
-          'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/FSM-TrafficLight.jpg',
+          'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/FSM-Traffic_Light.jpg',
         link: 'https://github.com/JIBGuzman/Embedded_Systems/tree/main/CECS_346_Project_1',
         },
       ],
