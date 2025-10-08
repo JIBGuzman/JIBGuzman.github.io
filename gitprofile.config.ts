@@ -34,23 +34,7 @@ const CONFIG = {
         imageUrl:
           'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/embedded_systems_initialization_hub.png',
         link: 'https://github.com/JIBGuzman/Embedded_Systems_Initialization_Hub',
-      },
-      {
-        title: 'Exoplanet Discovery',
-        description:
-          'Independent research on exoplanet detection using NASA datasets and transit pipelines. Exploring real-time processing implementation on ESP32 and STM32 microcontrollers. Gaining experience in astronomical data analysis, embedded systems, and TinyML feasibility.',
-        imageUrl:
-          'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/exoplanet-discovery.png',
-        link: 'https://github.com/JIBGuzman/Exoplanet_Discovery',
-      },
-      {
-        title: 'Brain Computer Interface',
-        description:
-          'A system to acquire and store raw brain activity data while users perform computer actions (e.g., opening an app, clicking the mouse), enabling research and development of brain-controlled interfaces.',
-        imageUrl:
-          'https://raw.githubusercontent.com/JIBGuzman/Joseph-Guzman-website-assets/main/Project-Icons/brain-computer-interface.png',
-        link: 'https://github.com/JIBGuzman/Brain_Computer_Interface',
-      },      
+      },  
       {
         title: 'Automated Pill Dispenser',
         description:
