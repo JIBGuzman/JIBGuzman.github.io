@@ -113,8 +113,8 @@ const CONFIG = {
     linkedin: 'josephguzmani',
     x: '',
     website: '',
-    phone: '', // Hidden for privacy
-    email: 'JosephGuzman1019@gmail.com',
+    phone: '+1 (562) 377-8286', 
+    email: 'JosephGuzmanIGNB@gmail.com',
   },
 
   resume: {
