@@ -161,7 +161,7 @@ const CONFIG = {
     'Project Coordination',
   ],
   
-  experiences: [
+    experiences: [
     {
       company: 'Tastea',
       position: 'Team Lead Supervisor',
@@ -183,7 +183,7 @@ const CONFIG = {
         'PCB bring-up and functional testing, enhancing production readiness and operational workflows.',
         },
   ],
-  
+
   educations: [
     {
       institution: 'California State University, Long Beach',
