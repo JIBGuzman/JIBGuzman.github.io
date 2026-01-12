@@ -181,6 +181,7 @@ const CONFIG = {
         'Avionic integration technician supporting build through precise verification, test data collection.',
         'Refined work orders for vehicle subassembly test via-training hardware verification.',
         'PCB bring-up and functional testing, enhancing production readiness and operational workflows.',
+        },
       ],
 
 
