@@ -171,11 +171,10 @@ const CONFIG = {
         'Supervised operations, maintained product quality, and ensured compliance with standards.',
         'Managed inventory and optimized stock levels.',
         'Delivered performance evaluations and improvement plans.',
-      ],
     },
     {
       company: 'Mach Industries (Contractor)',
-      position: 'Avionic Components and Wire Harness',
+      position: 'Avionic Integration Technician',
       from: 'Nov 2024',
       to: 'Present',
       description: [
@@ -183,8 +182,7 @@ const CONFIG = {
         'Refined work orders for vehicle subassembly test via-training hardware verification.',
         'PCB bring-up and functional testing, enhancing production readiness and operational workflows.',
       ],
-    },
-  ],
+
 
   educations: [
     {
