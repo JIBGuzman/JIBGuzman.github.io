@@ -160,7 +160,7 @@ const CONFIG = {
     'Team Collaboration',
     'Project Coordination',
   ],
-
+  
   experiences: [
     {
       company: 'Tastea',
@@ -182,9 +182,8 @@ const CONFIG = {
         'Refined work orders for vehicle subassembly test via-training hardware verification.',
         'PCB bring-up and functional testing, enhancing production readiness and operational workflows.',
         },
-      ],
-
-
+  ],
+  
   educations: [
     {
       institution: 'California State University, Long Beach',
