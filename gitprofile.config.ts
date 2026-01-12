@@ -161,21 +161,11 @@ const CONFIG = {
     'Project Coordination',
   ],
   
-    experiences: [
-    {
-      company: 'Tastea',
-      position: 'Team Lead Supervisor',
-      from: 'June 2020',
-      to: 'June 2022',
-      description: [
-        'Supervised operations, maintained product quality, and ensured compliance with standards.',
-        'Managed inventory and optimized stock levels.',
-        'Delivered performance evaluations and improvement plans.',
-    },
+    experiences: [    
     {
       company: 'Mach Industries (Contractor)',
       position: 'Avionic Integration Technician',
-      from: 'Nov 2024',
+      from: 'Nov 2025',
       to: 'Present',
       description: [
         'Avionic integration technician supporting build through precise verification, test data collection.',
