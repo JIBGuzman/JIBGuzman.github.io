@@ -184,7 +184,7 @@ const CONFIG = {
         'PCB bring-up and functional testing, enhancing production readiness and operational workflows.',
       ],
     },
-
+],
   educations: [
     {
       institution: 'California State University, Long Beach',
